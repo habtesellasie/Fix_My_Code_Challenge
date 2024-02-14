@@ -5,7 +5,6 @@
 import hashlib
 import uuid
 
-
 class User():
     """
     User class:
@@ -15,6 +14,7 @@ class User():
 
     __password = None
 
+ 
     def __init__(self):
         """
         Initialize a new user:
